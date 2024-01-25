@@ -44,7 +44,7 @@ const winner=()=>{
                 showwinner(pos1);
                 disable();
             }
-            if(count===9)
+            else if(count===9)
             {
                 draw();
             }
